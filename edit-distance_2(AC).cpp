@@ -27,8 +27,8 @@ public:
                 if (word1[i - 1] == word2[j - 1]) {
                     dp[f][j] = dp[nf][j - 1];
                 } else {
-                    dp[f][j] = dp[nf][j - 1];
-                    dp[f][j] = min(dp[f][j], min(dp[nf][j], dp[f][j - 1])) + 1;
+                    dp[f][j] = min(dp[nf][j], dp[f][j - 1]);
+                    dp[f][j] = min(dp[f][j], dp[nf][j - 1]) + 1;
                 }
             }
             f = !f;

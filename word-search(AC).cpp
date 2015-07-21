@@ -39,11 +39,9 @@ public:
                 if (board[i][j] != target[0]) {
                     continue;
                 }
-                s.push_back(board[i][j]);
                 b[i][j] = true;
-                DFS(i, j, board);
+                DFS(i, j, board, 1);
                 b[i][j] = false;
-                s.pop_back();
             }
         }
         return ans;
@@ -51,7 +49,6 @@ public:
 private:
     int n, m;
     string target;
-    string s;
     vector<vector<int> > b;
     vector<vector<int> > d;
     bool ans;
@@ -60,11 +57,11 @@ private:
         return x >= 0 && x <= n - 1 && y >= 0 && y <= m - 1;
     }
     
-    void DFS(int x, int y, vector<vector<char> > &board) {
+    void DFS(int x, int y, vector<vector<char> > &board, int len) {
         if (ans) {
             return;
         }
-        if (s.length() == target.length()) {
+        if (len == target.length()) {
             ans = true;
             return;
         }
@@ -79,14 +76,12 @@ private:
             if (b[xx][yy]) {
                 continue;
             }
-            if (board[xx][yy] != target[s.length()]) {
+            if (board[xx][yy] != target[len]) {
                 continue;
             }
-            s.push_back(board[xx][yy]);
             b[xx][yy] = true;
-            DFS(xx, yy, board);
+            DFS(xx, yy, board, len + 1);
             b[xx][yy] = false;
-            s.pop_back();
         }
     }
 };

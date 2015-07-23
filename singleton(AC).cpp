@@ -1,12 +1,13 @@
 class Solution {
-private:
-	Solution() {}
 public:
     static Solution *getInstance() {
-		static Solution *instance;
 		if (instance == NULL) {
 			instance = new Solution();
 		}
 		return instance;
     }
+private:
+	Solution();
+    static Solution *instance;
 };
+Solution *Solution::instance = NULL;

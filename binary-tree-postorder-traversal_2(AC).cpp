@@ -1,3 +1,5 @@
+#include <stack>
+using namespace std;
 /**
  * Definition of TreeNode:
  * class TreeNode {
@@ -21,27 +23,27 @@ public:
         if (root == NULL) {
             return ans;
         }
-        vector<TreeNode *> st;
+        stack<TreeNode *> st;
         TreeNode *p = root, *oldp;
         while (true) {
             while (p != NULL) {
-                st.push_back(p);
+                st.push(p);
                 p = p->left;
             }
-            while (!st.empty() && st.back()->right == NULL) {
-                ans.push_back(st.back()->val);
-                oldp = st.back();
-                st.pop_back();
+            while (!st.empty() && st.top()->right == NULL) {
+                ans.push_back(st.top()->val);
+                oldp = st.top();
+                st.pop();
             }
-            while (!st.empty() && oldp == st.back()->right) {
-                ans.push_back(st.back()->val);
-                oldp = st.back();
-                st.pop_back();
+            while (!st.empty() && oldp == st.top()->right) {
+                ans.push_back(st.top()->val);
+                oldp = st.top();
+                st.pop();
             }
             if (st.empty()) {
                 break;
             }
-            p = st.back()->right;
+            p = st.top()->right;
         }
         return ans;
     }

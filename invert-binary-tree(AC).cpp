@@ -17,13 +17,13 @@ public:
      * @return: nothing
      */
     void invertBinaryTree(TreeNode *root) {
-		if (root == NULL) {
-			return;
-		}
-		TreeNode *p = root->left;
-		root->left = root->right;
-		root->right = p;
-		invertBinaryTree(root->left);
-		invertBinaryTree(root->right);
+        if (root == NULL) {
+            return;
+        }
+        TreeNode *p = root->left;
+        root->left = root->right;
+        root->right = p;
+        invertBinaryTree(root->left);
+        invertBinaryTree(root->right);
     }
 };

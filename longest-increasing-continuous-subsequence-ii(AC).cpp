@@ -1,7 +1,3 @@
-// This problem is bugged
-#include <queue>
-using namespace std;
-
 class Solution {
 public:
     Solution() {

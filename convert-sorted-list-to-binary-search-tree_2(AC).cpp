@@ -1,4 +1,14 @@
 /**
+ * Definition of ListNode
+ * class ListNode {
+ * public:
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int val) {
+ *         this->val = val;
+ *         this->next = NULL;
+ *     }
+ * }
  * Definition of TreeNode:
  * class TreeNode {
  * public:
@@ -13,10 +23,24 @@
 class Solution {
 public:
     /**
-     * @param A: A sorted (increasing order) array
-     * @return: A tree node
+     * @param head: The first node of linked list.
+     * @return: a tree node
      */
-    TreeNode* sortedArrayToBST(vector<int> &A) {
+    TreeNode *sortedListToBST(ListNode *head) {
+        if (head == NULL) {
+            return NULL;
+        }
+        
+        ListNode *p = head;
+        vector<int> A;
+        while (p != NULL) {
+            A.push_back(p->val);
+            p = p->next;
+        }
+        return sortedArrayToBST(A);
+    }
+    
+    TreeNode *sortedArrayToBST(vector<int> &A) {
         if (A.empty()) {
             return NULL;
         }

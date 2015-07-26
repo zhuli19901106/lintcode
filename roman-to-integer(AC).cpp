@@ -1,8 +1,8 @@
-#include <map>
+#include <unordered_map>
 using namespace std;
 
-map<char, int> val;
-map<char, char> nextchar;
+unordered_map<char, int> val;
+unordered_map<char, char> nextchar;
 
 class Solution {
 public:

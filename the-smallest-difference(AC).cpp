@@ -1,4 +1,4 @@
-// O(n) solution with O(n) space
+// O(n * log(n)) solution with O(n) space
 #include <algorithm>
 using namespace std;
 

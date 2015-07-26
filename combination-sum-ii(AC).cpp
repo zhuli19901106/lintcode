@@ -3,11 +3,11 @@ using namespace std;
 
 class Solution {
 public:
-	/**
-	 * @param num: Given the candidate numbers
-	 * @param target: Given the target number
-	 * @return: All the combinations that sum to target
-	 */
+    /**
+     * @param num: Given the candidate numbers
+     * @param target: Given the target number
+     * @return: All the combinations that sum to target
+     */
     vector<vector<int> > combinationSum2(vector<int> &num, int target) {
         v.clear();
         a.clear();

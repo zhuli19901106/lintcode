@@ -1,26 +1,31 @@
 class Solution {
 public:
-    /**
-     * @param A: A list of lists of integers
-     * @return: An integer
-     */
     int jump(vector<int> A) {
         int n = A.size();
-        if (n == 0) {
+        if (n < 2) {
             return 0;
         }
         int i;
-        int r = 0;
+        int oldr, r;
         int ans = 0;
-        for (i = 0; i < n; ++i) {
-            if (i + A[i] <= r) {
-                continue;
+        
+        oldr = r = 0;
+        i = 0;
+        while (i < n) {
+            if (r < i) {
+                // Unreachable
+                return -1;
             }
-            r = i + A[i];
-            ++ans;
+            
             if (r >= n - 1) {
                 break;
             }
+            while (i <= oldr) {
+                r = max(r, i + A[i]);
+                ++i;
+            }
+            oldr = r;
+            ++ans;
         }
         return ans;
     }

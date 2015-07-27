@@ -79,7 +79,6 @@ Maximum Depth of Binary Tree<br/>http://www.1point3acres.com/bbs/forum.php?mod=r
 Sort List<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948144&amp;fromuid=164041<br/><br/>
 Reorder List<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948149&amp;fromuid=164041<br/><br/>
 Remove Duplicates from Sorted Array<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948220&amp;fromuid=164041<br/><br/>
-Remove Duplicates from Sorted Array<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948222&amp;fromuid=164041<br/><br/>
 Remove Duplicates from Sorted List II<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948235&amp;fromuid=164041<br/><br/>
 Unique Paths<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948238&amp;fromuid=164041<br/><br/>
 Unique Paths II<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948242&amp;fromuid=164041<br/><br/>
@@ -213,7 +212,6 @@ Scramble String<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=
 Submatrix Sum<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1951367&amp;fromuid=164041<br/><br/>
 Word Break<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1951376&amp;fromuid=164041<br/><br/>
 Triangle<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1951377&amp;fromuid=164041<br/><br/>
-Remove Duplicates from Sorted Array<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1951378&amp;fromuid=164041<br/><br/>
 Remove Duplicates from Sorted Array II<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1951379&amp;fromuid=164041<br/><br/>
 Sort Letters by Case<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1951380&amp;fromuid=164041<br/><br/>
 Palindrome Partitioning II<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1951384&amp;fromuid=164041<br/><br/>

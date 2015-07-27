@@ -67,7 +67,6 @@ Single Number<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=fi
 Single Number III<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1947637&amp;fromuid=164041<br/><br/>
 Insert Node in a Binary Search Tree<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1947640&amp;fromuid=164041<br/><br/>
 Binary Search Tree Iterator<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1947647&amp;fromuid=164041<br/><br/>
-OK<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1947651&amp;fromuid=164041<br/><br/>
 Remove Node in Binary Search Tree<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948059&amp;fromuid=164041<br/><br/>
 Lowest Common Ancestor<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948061&amp;fromuid=164041<br/><br/>
 Minimum Adjustment Cost<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948081&amp;fromuid=164041<br/><br/>

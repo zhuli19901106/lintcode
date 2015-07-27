@@ -23,11 +23,8 @@ Interleaving String<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&g
 Insert Interval<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946516&amp;fromuid=164041<br/><br/>
 Partition Array<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946518&amp;fromuid=164041<br/><br/>
 Minimum Window Substring<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946533&amp;fromuid=164041<br/><br/>
-N<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946540&amp;fromuid=164041<br/><br/>
-N<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946799&amp;fromuid=164041<br/><br/>
-N<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946802&amp;fromuid=164041<br/><br/>
-N<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946803&amp;fromuid=164041<br/><br/>
-N<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946806&amp;fromuid=164041<br/><br/>
+N-Queens<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946540&amp;fromuid=164041<br/><br/>
+N-Queens II<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946806&amp;fromuid=164041<br/><br/>
 Reverse Linked List<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946808&amp;fromuid=164041<br/><br/>
 Reverse Linked List II<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946810&amp;fromuid=164041<br/><br/>
 Recover Rotated Sorted Array<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1946833&amp;fromuid=164041<br/><br/>
@@ -108,7 +105,7 @@ Subarray Sum<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=fin
 Subarray Sum Closest<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948790&amp;fromuid=164041<br/><br/>
 Fast Power<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948792&amp;fromuid=164041<br/><br/>
 Sqrt<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948824&amp;fromuid=164041<br/><br/>
-O<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948827&amp;fromuid=164041<br/><br/>
+O(1) Check Power of 2<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948827&amp;fromuid=164041<br/><br/>
 Sort Colors II<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948829&amp;fromuid=164041<br/><br/>
 Interleaving Positive and Negative Numbers<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948832&amp;fromuid=164041<br/><br/>
 Sort Colors<br/>http://www.1point3acres.com/bbs/forum.php?mod=redirect&goto=findpost&ptid=138272&pid=1948837&amp;fromuid=164041<br/><br/>

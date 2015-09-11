@@ -44,7 +44,7 @@ class Solution:
                 while op[-1] != '(':
                     self.__calculate(num, op)
                 op.pop()
-            else:
+            elif :
                 while len(op) > 0 and self.__pre[op[-1]] >= self.__pre[token]:
                     self.__calculate(num, op)
                 op.append(token)
